@@ -1,6 +1,6 @@
 # Sea Turtle Image Segmentation and Identification
 
-This project implements and compares two distinct approaches for analyzing sea turtle images: Deep Learning for end-to-end segmentation and a classic Computer Vision & Machine Learning pipeline for body part classification.
+This project provides a comprehensive exploration of image analysis techniques for sea turtle conservation research. It tackles two primary computer vision tasks: semantic segmentation to isolate turtle body parts (shell, head, limbs) and classification to identify these parts. The repository compares two distinct methodologies: a modern, end-to-end Deep Learning approach using state-of-the-art architectures like U-Net, DeepLabV3+, and PSPNet, and a traditional Computer Vision pipeline leveraging feature extraction techniques like SIFT and HOG coupled with classic Machine Learning classifiers such as SVM and Random Forest.
 
 ---
 
