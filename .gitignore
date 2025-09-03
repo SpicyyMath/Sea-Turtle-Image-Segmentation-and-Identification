@@ -1,0 +1,52 @@
+# ==================================
+# General Python Files to Ignore
+# ==================================
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Cache folders
+__pycache__/
+
+# Virtual Environment folders (common names)
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+
+# ==================================
+# IDE / Editor Specific Files
+# ==================================
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# PyCharm files
+.idea/
+
+
+# ==================================
+# Project Specific Files to Ignore
+# ==================================
+
+# Large datasets and preprocessed data
+# We should only provide a download link in the README, not upload the data itself.
+data/
+preprocessed/
+preprocessed_data/
+selected_images/
+turtles-data/
+*.zip
+
+
+# Operating System generated files
+.DS_Store
+Thumbs.db
